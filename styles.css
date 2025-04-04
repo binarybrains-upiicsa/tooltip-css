@@ -1,3 +1,41 @@
-p{
-    color: blueviolet;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: rgb(18, 18, 18);
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%; /* Opcional: si quieres que ocupe todo el ancho */
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 100px;
+    background-color: antiquewhite;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* Mejor que usar padding en los <li> */
+}
+
+#navbar ul li {
+    /* Puedes quitar el padding si usas gap */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 60px;
+    height: 60px;
 }
