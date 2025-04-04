@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Gantari:ital,wght@0,100..900;1,100..900&family=Londrina+Solid:wght@100;300;400;900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gantari', sans-serif;
+    background-color: #313131;
+    color: aliceblue;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+
+.nav-links {
+    list-style: none;
+    display:inline-block;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 0 20px;
+}
+
+.nav-item {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.nav-item a {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.nav-item a:hover {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+}
+
+.nav-item .tooltip {
+    position: absolute;
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.nav-item:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.container-login {
+    background-color: #0B035C;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 30px;
+    width: 38%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#username,
+#pass {
+    margin-top: 20px;
+    margin-left: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+}
+
+
+#btnNew,
+#btnLogin, button {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: all 0.5s ease;
+    margin: 10px;
+}
+
+#btnNew:hover,
+#btnLogin:hover {
+    background: #313131;
+    color: #fff !important;
+    border-color: #313131;
+}
+button:hover {
+    background: #0B035C;
+    color: #fff !important;
+    border-color: #0B035C;
+}

@@ -16,5 +16,5 @@ Después de completar este proyecto, comprenderás mejor el posicionamiento CSS,
 
 ## Soluciones hechas por la comunidad
 |Usuario|Repositorio| Website | Figma|
-|-------|-----------|---------|------|
-|||||
+|-----------|-----------|-----------|-----------|
+|<a href="https://github.com/elexdero">elexdero</a>|<a href="https://github.com/elexdero/tooltip-css">solución</a>|<a href="https://codepen.io/elexdero/pen/wBvNYKP">codepen</a>|<a href="https://www.figma.com/proto/hvvF9G5XSkfOQlVAkhmiva/Tooltip-UI?node-id=32-3&t=cblmchNRYY3BDncX-1&scaling=scale-down&content-scaling=fixed&page-id=32%3A2&starting-point-node-id=32%3A3">figma<a/>|
