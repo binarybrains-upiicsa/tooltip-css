@@ -16,6 +16,7 @@ Después de completar este proyecto, comprenderás mejor el posicionamiento CSS,
 
 ## Soluciones hechas por la comunidad
 |Usuario|Repositorio| Website | Figma|
-|-------|-----------|---------|------|
+|-----------|-----------|-----------|-----------|
+|<a href="https://github.com/elexdero">elexdero</a>|<a href="https://github.com/elexdero/tooltip-css">solución</a>|<a href="https://codepen.io/elexdero/pen/wBvNYKP">codepen</a>|<a href="https://www.figma.com/proto/hvvF9G5XSkfOQlVAkhmiva/Tooltip-UI?node-id=32-3&t=cblmchNRYY3BDncX-1&scaling=scale-down&content-scaling=fixed&page-id=32%3A2&starting-point-node-id=32%3A3">figma<a/>|
 |<a href="https://github.com/untalbry">untalbry</a>|<a href="https://github.com/untalbry/tooltip-css">Solución</a>| <a href="https://codepen.io/untalbry/pen/OPJBKjz">Codepen</a>| <a href="https://www.figma.com/proto/hvvF9G5XSkfOQlVAkhmiva/Tooltip-UI?page-id=0%3A1&node-id=68-310&viewport=48%2C414%2C0.79&t=WIlkJHZB7SZ5Gdlc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=68%3A310">Prototype</a>|
-|<a href="https://github.com/EGAMAGZ">EGAMAGZ</a>|<a href="https://github.com/EGAMAGZ/tooltip-css">Solución</a>| A poco se tenia que poner?|<a href="https://www.figma.com/design/hvvF9G5XSkfOQlVAkhmiva/Tooltip-UI?node-id=24-4&p=f&t=rNfcKG9duc8zh5XU-0">Prototype</a>|
+|<a href="https://github.com/EGAMAGZ">EGAMAGZ</a>|<a href="https://github.com/EGAMAGZ/tooltip-css">Solución</a>| <a href="https://codepen.io/EGAMAGZ/pen/WbNmyQX">Codepen</a>|<a href="https://www.figma.com/design/hvvF9G5XSkfOQlVAkhmiva/Tooltip-UI?node-id=24-4&p=f&t=rNfcKG9duc8zh5XU-0">Prototype</a>|
