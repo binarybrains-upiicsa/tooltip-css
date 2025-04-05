@@ -1,4 +1,6 @@
 body {
+    font-family:"Roboto", sans-serif;
+    font-style: italic;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100px;
-    width: 100%; /* Opcional: si quieres que ocupe todo el ancho */
+    width: 100%; 
 }
 
 #navbar ul {
@@ -21,21 +23,56 @@ body {
     align-items: center;
     width: 350px;
     height: 100px;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     list-style-type: none;
     padding: 0;
     margin: 0;
-    gap: 20px; /* Mejor que usar padding en los <li> */
+    gap: 40px;
+    border-radius: 20px;
 }
 
 #navbar ul li {
-    /* Puedes quitar el padding si usas gap */
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease;
+}
+
+#navbar ul li:hover {
+    background-color: rgb(218, 218, 218);
+    padding: 3px 9px;
+    border-radius: 20px;
 }
 
 img {
     width: 60px;
     height: 60px;
 }
+
+.tooltip{
+    position: absolute;
+    visibility: hidden;
+    bottom: 100px;
+    border-radius: 5px;
+    background-color: rgb(254, 254, 254);
+    opacity: 0;
+    padding: 6px 12px;
+    transition: all 0.3s ease;
+}
+
+#navbar ul li:hover .tooltip {
+    visibility: visible;
+    opacity: 100%;
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #ffffff transparent transparent transparent;
+}  
