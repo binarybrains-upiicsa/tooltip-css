@@ -17,4 +17,4 @@ Después de completar este proyecto, comprenderás mejor el posicionamiento CSS,
 ## Soluciones hechas por la comunidad
 |Usuario|Repositorio| Website | Figma|
 |-------|-----------|---------|------|
-|<a href="https://github.com/untalbry">untalbry</a>|<a href="https://github.com/untalbry/tooltip-css">Solución</a>| <a href="https://codepen.io/untalbry/pen/OPJBKjz">Codepen</a>| <a href="https://www.figma.com/proto/hvvF9G5XSkfOQlVAkhmiva/Tooltip-UI?page-id=0%3A1&node-id=68-310&viewport=48%2C414%2C0.79&t=WIlkJHZB7SZ5Gdlc-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=68%3A310">Prototype</a>|
+|<a href="https://github.com/mendodevv">mendodevv</a>|<a href="https://github.com/mendodevv/tooltip-css">Solución</a>| <a href="https://codepen.io/mendodev/pen/wBvOXNX">Codepen</a>| <a href="https://www.figma.com/design/7nHk6KF7Gyk6leNtLxw0HF/tooltip-css-mendodev?node-id=13-102&t=ExQqD7lFDPDr7bQu-1">Prototype</a>|
